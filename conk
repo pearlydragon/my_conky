@@ -1,0 +1,35 @@
+conky.config = {
+	border_inner_margin = 0,
+	border_outer_margin = 0,
+	border_width = 0,
+	draw_borders = false,
+	draw_graph_borders = false,
+    use_xft = true,
+	double_buffer = true,
+	format_human_readable = true,
+
+	gap_x = 33,
+	gap_y = 30,
+	maximum_width = 1680,
+	minimum_width = 1680,
+	minimum_height = 600,
+
+	own_window = true,
+	own_window_class = 'Conky',
+	own_window_type = 'normal',
+	own_window_hints = 'below, sticky, undecorated, skip_taskbar, skip_pager',
+
+	own_window_transparent = true,
+	own_window_argb_visual = true,
+	own_window_argb_value = 0,
+	pad_percents = 3,
+	update_interval = 2,
+
+	lua_load = '~/.conky/tl.lua',
+	lua_draw_hook_pre = 'main',
+	lua_startup_hook = 'startup'
+};
+
+conky.text = [[
+${offset 1000}${voffset 70}${downspeedgraph eth0 40,200 ffffff ffffff}${offset -266}${voffset 97}${upspeedgraph eth0 40,200 ffffff ffffff s}
+]];

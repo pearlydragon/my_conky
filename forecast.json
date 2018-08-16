@@ -1,0 +1,92 @@
+{
+  "city": {
+    "id": 1502026,
+    "name": "Krasnoyarsk",
+    "coord": {
+      "lon": 92.7917,
+      "lat": 56.0097
+    },
+    "country": "RU",
+    "population": 0
+  },
+  "cod": "200",
+  "message": 0.2505635,
+  "cnt": 3,
+  "list": [
+    {
+      "dt": 1531976400,
+      "temp": {
+        "day": 18.55,
+        "min": 15,
+        "max": 19.32,
+        "night": 15.98,
+        "eve": 18.98,
+        "morn": 15
+      },
+      "pressure": 970.09,
+      "humidity": 77,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 1.62,
+      "deg": 18,
+      "clouds": 92,
+      "rain": 0.45
+    },
+    {
+      "dt": 1532062800,
+      "temp": {
+        "day": 21.44,
+        "min": 15.21,
+        "max": 21.44,
+        "night": 15.21,
+        "eve": 16.98,
+        "morn": 16.13
+      },
+      "pressure": 970.49,
+      "humidity": 58,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 1.76,
+      "deg": 340,
+      "clouds": 76,
+      "rain": 2.15
+    },
+    {
+      "dt": 1532149200,
+      "temp": {
+        "day": 17.51,
+        "min": 14.27,
+        "max": 17.55,
+        "night": 14.27,
+        "eve": 16.88,
+        "morn": 14.75
+      },
+      "pressure": 974.18,
+      "humidity": 74,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 1.77,
+      "deg": 37,
+      "clouds": 88,
+      "rain": 0.57
+    }
+  ]
+}

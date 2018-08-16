@@ -1,0 +1,14 @@
+﻿#!/bin/sh
+
+cd ~/.conky/
+
+for A in $(pidof conky)
+do
+    kill $A
+done
+
+conky -c ~/.conky/coweb --alignment=top_left &
+conky -c ~/.conky/conk --alignment=top_left &
+conky -c ~/.conky/conkdate --alignment=top_left &
+
+exit 0
